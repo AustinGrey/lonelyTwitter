@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>LonelyTwitter</name>
+	<type>LonelyTwitter</type>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
-			<name>com.android.ide.eclipse.adt.ResourceManagerBuilder</name>
+			<type>com.android.ide.eclipse.adt.ResourceManagerBuilder</type>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>com.android.ide.eclipse.adt.PreCompilerBuilder</name>
+			<type>com.android.ide.eclipse.adt.PreCompilerBuilder</type>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
+			<type>org.eclipse.jdt.core.javabuilder</type>
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
-			<name>com.android.ide.eclipse.adt.ApkBuilder</name>
+			<type>com.android.ide.eclipse.adt.ApkBuilder</type>
 			<arguments>
 			</arguments>
 		</buildCommand>
