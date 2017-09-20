@@ -6,17 +6,7 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22aa24d0-7fa6-4670-9580-f608c2255abb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" afterPath="$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/Tweet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-    </list>
+    <list default="true" id="22aa24d0-7fa6-4670-9580-f608c2255abb" name="Default" comment="" />
     <ignored path="lonelyTwitter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -66,10 +56,9 @@
       <file leaf-file-name="LonelyTwitterActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#1415#1734#0" expanded="true" />
                 <element signature="e#1733#1734#0" expanded="true" />
                 <element signature="e#1771#1991#0" expanded="true" />
@@ -2347,7 +2336,6 @@
         <state relative-caret-position="702">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1415#1734#0" expanded="true" />
             <element signature="e#1733#1734#0" expanded="true" />
             <element signature="e#1771#1991#0" expanded="true" />
@@ -2369,8 +2357,8 @@
         <state relative-caret-position="252">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2380,8 +2368,8 @@
         <state relative-caret-position="252">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#306#307#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2470,8 +2458,8 @@
         <state relative-caret-position="288">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#306#307#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2481,8 +2469,8 @@
         <state relative-caret-position="252">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="false" />
+            <element signature="e#316#317#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2523,10 +2511,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ca/ualberta/cs/lonelytwitter/LonelyTwitterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1415#1734#0" expanded="true" />
             <element signature="e#1733#1734#0" expanded="true" />
             <element signature="e#1771#1991#0" expanded="true" />
