@@ -44,7 +44,7 @@ public class LonelyTwitterActivity extends Activity {
 
 		bodyText = (EditText) findViewById(R.id.body);
 		Button saveButton = (Button) findViewById(R.id.save);
-		Button clearButton = (Button) findViewById(R.id.clear);
+		Button searchButton = (Button) findViewById(R.id.clear);
 		oldTweetsList = (ListView) findViewById(R.id.oldTweetsList);
 
 		saveButton.setOnClickListener(new View.OnClickListener() {
@@ -56,18 +56,25 @@ public class LonelyTwitterActivity extends Activity {
 				tweetList.add(newTweet);
 				adapter.notifyDataSetChanged();
 				//saveInFile(); // TODO replace this with elastic search
-				ElasticsearchTweetController.AddTweetsTask addTweetTask =
-						new ElasticsearchTweetController.AddTweetsTask();
-				addTweetTask.execute(newTweet);
+
 			}
 		});
 
-		clearButton.setOnClickListener(new View.OnClickListener() {
+		searchButton.setOnClickListener(new View.OnClickListener() {
 
 			public void onClick(View v) {
 				setResult(RESULT_OK);
 				tweetList.clear();
-				deleteFile(FILENAME);  // TODO deprecate this button
+				ElasticsearchTweetController.GetTweetsTask getTweetsTask =
+						new ElasticsearchTweetController.GetTweetsTask();
+				getTweetsTask.execute(bodyText.getText().toString());
+				try{
+					tweetList.addAll(getTweetsTask.get());
+
+				}
+				catch (Exception e) {
+					Log.i("Error", "Failed to get the tweets from the async object");
+				}
 				adapter.notifyDataSetChanged();
 			}
 		});
@@ -82,7 +89,7 @@ public class LonelyTwitterActivity extends Activity {
 		//loadFromFile(); // TODO replace this with elastic search
 		ElasticsearchTweetController.GetTweetsTask getTweetsTask =
 				new ElasticsearchTweetController.GetTweetsTask();
-		getTweetsTask.execute(""); //@TODO this could be any _q= query
+		getTweetsTask.execute(bodyText.getText().toString());
 
 		try{
 			tweetList = getTweetsTask.get();
