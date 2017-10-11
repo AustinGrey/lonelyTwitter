@@ -3,11 +3,6 @@ package ca.ualberta.cs.lonelytwitter;
 import java.util.Date;
 
 /**
- * A normal tweet, without importance
- * @author crapo
- * @version 1.0
- * @since 1.0
- */
 public class NormalTweet extends Tweet {
 
     /**
@@ -31,6 +26,8 @@ public class NormalTweet extends Tweet {
      * Returns false, normal tweets are not important
      * @return false tweet is not important
      */
+    @Override
+    public Boolean isImportant() {
     @Override
     public Boolean isImportant() {
         return Boolean.FALSE;

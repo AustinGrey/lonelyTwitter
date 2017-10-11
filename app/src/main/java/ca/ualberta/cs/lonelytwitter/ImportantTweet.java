@@ -1,5 +1,6 @@
 package ca.ualberta.cs.lonelytwitter;
 
+<<<<<<< HEAD
 import java.util.Date;
 
 /**
@@ -25,13 +26,25 @@ public class ImportantTweet extends Tweet implements Tweetable {
     public ImportantTweet(String message, Date date) {
         super(message, date);
     }
-
-    /**
+/**
      * Returns if tweet is important or not
      * @return true important tweets are important
      */
+=======
+public class ImportantTweet extends Tweet{
+
+    public ImportantTweet(String message){
+        super(message);
+    }
+
+>>>>>>> elasticsearch
     @Override
     public Boolean isImportant(){
         return Boolean.TRUE;
     }
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> elasticsearch
 }

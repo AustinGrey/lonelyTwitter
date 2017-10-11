@@ -14,9 +14,11 @@ import java.util.Date;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -87,18 +89,12 @@ public class LonelyTwitterActivity extends Activity {
 
 			}
 		});
+
+
 	}
 
 	/**
 	 * Called when activity is started
-	 */
-	@Override
-	protected void onStart() {
-		// TODO Auto-generated method stub
-		super.onStart();
-		loadFromFile();
-		adapter = new ArrayAdapter<Tweet>(this,
-				R.layout.list_item, tweetList);
 		oldTweetsList.setAdapter(adapter);
 	}
 
@@ -141,6 +137,7 @@ public class LonelyTwitterActivity extends Activity {
 			out.flush(); /*forces the buffer to be written*/
 
 			fos.close();
+		} catch (FileNotFoundException e) {
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			throw new RuntimeException();
